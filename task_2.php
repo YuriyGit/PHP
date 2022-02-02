@@ -67,7 +67,7 @@
                             <p class="mb-g">
                                 <?php echo $item['content']; ?>
                             </p>
-                        <?php endforeach; ?>
+                        <?php endforeach;?>
 
                     </div>
                 </div>
