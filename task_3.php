@@ -56,8 +56,7 @@
                     <ol class="breadcrumb page-breadcrumb">
                         <?php foreach ($links as $link): ?>
                             <?php if ($link['isLink'] == true): ?>
-                                <li class="breadcrumb-item"><a
-                                            href="<?php echo $link['href']; ?>"><?php echo $link['title']; ?></a></li>
+                                <li class="breadcrumb-item"><a href="<?php echo $link['href']; ?>"><?php echo $link['title']; ?></a></li>
                             <?php else: ?>
                                 <li class="breadcrumb-item active"><?php echo $link['title']; ?></li>
                             <?php endif; ?>
